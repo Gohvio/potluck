@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Potluck — everyone brings a time</title>
+<meta name="description" content="Group scheduling without the back and forth. Everyone brings what they've got free, and the meeting appears.">
+<meta property="og:title" content="Potluck">
+<meta property="og:description" content="Everyone brings a time. The meeting appears.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥘</text></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="#/">
+    <span class="brand-mark">🥘</span>
+    <span class="brand-name">Potluck</span>
+  </a>
+  <span class="brand-tag">Everyone brings a time</span>
+</header>
+
+<main id="app" class="wrap">
+  <div class="loading">Warming up…</div>
+</main>
+
+<footer class="footfoot">
+  <span id="modeBadge"></span>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

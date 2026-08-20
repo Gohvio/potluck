@@ -212,8 +212,9 @@
 
     el("app").innerHTML =
       '<h1>Everyone brings a time.</h1>' +
-      '<p class="sub">Nobody plans a potluck &mdash; everyone shows up with what they\'ve got and dinner appears. ' +
-      'Same idea here. Put out the times, send one link, watch the meeting cook itself.</p>' +
+      '<p class="sub">Nobody hires a caterer for a potluck. Everyone brings one thing and dinner costs nothing.<br>' +
+      'Same idea here: set the table, send one link, and the meeting comes together on its own. ' +
+      'Free; no ads, no upgrade screen, no dish you\'re not allowed to bring.</p>' +
 
       '<div class="card">' +
         '<div class="step-label"><span class="step-num">1</span> What\'s the meeting?</div>' +
